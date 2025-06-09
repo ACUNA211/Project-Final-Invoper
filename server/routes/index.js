@@ -4,7 +4,7 @@ const db = require('../db');
 
 /* GET home page. */
 
-router.get('/api/hello', (req, res) => {
+router.get('', (req, res) => {
   res.json({ message: 'Hello from Express!' });
 });
 
